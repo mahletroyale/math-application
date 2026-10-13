@@ -3,9 +3,9 @@
 public class MathApp {
     static void main(String[] args) {
         // highest salary
-        int bobSalary = 40000;
-        int garySalary = 120000;
-        int highestSalary = Math.max (bobSalary, garySalary);
+        double bobSalary = 40000;
+        double garySalary = 120000;
+        double highestSalary = Math.max (bobSalary, garySalary);
         System.out.println("The highest salary is: " + highestSalary);
 
         // Smallest of the two variables
