@@ -9,9 +9,9 @@ public class MathApp {
         System.out.println("The highest salary is: " + highestSalary);
 
         // Smallest of the two variables
-        int carPrice = 50000;
-        int truckPrice = 25160;
-        int smallestTwo = Math.min(carPrice, truckPrice);
+        double carPrice = 50000;
+        double truckPrice = 25160;
+        double smallestTwo = Math.min(carPrice, truckPrice);
         System.out.println( "The smallest of the two variable is: " + smallestTwo);
 
        // Area of a circle;
